@@ -1,12 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joshua Koji's Library</title>
+
+    <script src="https://kit.fontawesome.com/e0b6a46ad9.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="scrollbar.css">
+    <link rel="stylesheet" href="assests/fonts/font-face.css">
+    <title>Joshua Koji</title>
 </head>
+
 <body>
-    <h1>This is my Portfolio</h1>
+
+    <Header>
+
+        <h1>Joshua Koji</h1>
+        <h3>Developer // Portfolio</h3>
+
+    </Header>
+
+    <nav>
+        <ul>
+            <a href="">
+                <li>
+                    <i class="fa-brands fa-github"></i>
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <i class="fa-brands fa-linkedin"></i>
+                </li>
+            </a>
+            <a href="mailto:joshuakoji@protonmail.com">
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                </li>
+            </a>
+            <span class="project">
+                <li>
+                    ABOUT
+                </li>
+            </span>
+            <a href="">
+                <li>
+                    <button class="btn-animate">
+                        <span class="button-img">RESUME</span>
+                        RESUME
+                    </button>
+                </li>
+            </a>
+        </ul>
+    </nav>
+
+    <!-- --- ABOUT --- -->
+    <div class="modal">
+        <div class="modal-close"></div>
+        <div class="modal-container modal-container-about">
+            <div class="modal-header">
+                <h2 class="modal-title">About</h2>
+                <span class="modal-close-button">X</span>
+            </div>
+            <div class="modal-body body-about">
+                <p class="modal-text">
+                    While attending university I took two programming classes as electives and I've taken a programming
+                    bootcamp through App Brewery. Though a large portion of my knowledge is self-taught through combing
+                    documentations and experimenting.
+                    <br>
+                    <br>
+                    I used to focus my time on composing music while working odd jobs. However I've developed a strong
+                    passion for coding through working on minor personal projects and have since decided to switch
+                    fields to programming.
+                    <br>
+                    <br>
+                    <button>
+                        <span class="btn-invert button-img">RESUME</span>
+                        RESUME
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-header">
+        <h2 class="section-title">PROJECTS</h2>
+    </div>
+
+    <section id="project-section">
+        <!-- --- PORTFOLIO --- -->
+        <div class="left">
+            <h3>Portfolio //</h3>
+        </div>
+        <div class="right">
+            <div class="project-header">
+                <h4>website</h4>
+                <div class="proj-btn-container">
+                    <button class="project btn-info"><span class="button-img">Info</span>Info</button>
+                    <button class="btn-source"><span class="button-img">Source</span>Source</button>
+                    <a href="software/library/"><button class="btn-proj"><span class="button-img">Project</span>Project</button></a>
+                </div>
+            </div>
+            <p>Deeper part of my portfolio with a robust searching and filtering system to find content.</p>
+            <div class="project-features">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+                <span>Modular</span>
+                <span>Search</span>
+                <span>UI/UX Design</span>
+            </div>
+        </div>
+
+        <!-- --- EXCEL --- -->
+        <div class="left excel">
+            <h3>Excel CRUD //</h3>
+        </div>
+
+        <div class="right">
+            <div class="project-header">
+                <h4>spreadsheet CRUD app</h4>
+                <div class="proj-btn-container">
+                    <button class="project btn-info"><span class="button-img">Info</span>Info</button>
+                    <button class="btn-source"><span class="button-img">Source</span>Source</button>
+                    <a href="javascript:void(0)"><button class="btn-proj"><span class="button-img">Example</span>Example</button></a>
+                </div>
+            </div>
+            <p>Add, read, update, and delete items for inventory purposes for a cafe. Auto updates current day from
+                previous days and builds a printable version.</p>
+            <div class="project-features">
+                <span>CRUD</span>
+                <span>Google Sheets API</span>
+                <span>JS</span>
+                <span>Google Sheets Formulas</span>
+            </div>
+        </div>
+
+        <!-- --- 3D APP --- -->
+        <div class="left game">
+            <h3>3D App //</h3>
+        </div>
+        <div class="right">
+            <div class="project-header">
+                <h4>game</h4>
+                <div class="proj-btn-container">
+                    <button class="project btn-info"><span class="button-img">Info</span>Info</button>
+                    <button class="btn-source"><span class="button-img">Source</span>Source</button>
+                    <a href="software/self-drive/"><button class="btn-proj"><span class="button-img">Project</span>Project</button></a>
+                </div>
+            </div>
+            <p>Control a vehicle in 3D space and navigate through a town.</p>
+            <div class="project-features">
+                <span>WebGL</span>
+                <span>THREE.js</span>
+                <span>APIs</span>
+                <span>3D</span>
+                <span>JS</span>
+            </div>
+        </div>
+
+        <!-- --- VISUAL SYNTH --- -->
+        <div class="left">
+            <h3>Visual Synth //</h3>
+        </div>
+        <div class="right">
+            <div class="project-header">
+                <h4>web app</h4>
+                <div class="proj-btn-container">
+                    <button class="project btn-info"><span class="button-img">Info</span>Info</button>
+                    <button class="btn-source"><span class="button-img">Source</span>Source</button>
+                    <a href="software/visual-synth/"><button class="btn-proj"><span class="button-img">Project</span>Project</button></a>
+                </div>
+            </div>
+            <p>
+                Web app that listens to the user's internal and external audio and generates patterns based off the
+                waveform data.
+            </p>
+            <div class="project-features">
+                <span>Web Audio API</span>
+                <span>JS</span>
+                <span>Canvas</span>
+                <span>Waveform Data</span>
+            </div>
+        </div>
+
+        <!-- --- VISUAL SORT --- -->
+        <div class="left">
+            <h3>Visual Sort //</h3>
+        </div>
+        <div class="right">
+            <div class="project-header">
+                <h4>web app</h4>
+                <div class="proj-btn-container">
+                    <button class="project btn-info"><span class="button-img">Info</span>Info</button>
+                    <button class="btn-source"><span class="button-img">Source</span>Source</button>
+                    <a href="software/visual-sort/"><button class="btn-proj"><span class="button-img">Project</span>Project</button></a>
+                </div>
+            </div>
+            <p>
+                Web app that generates random length bars, then allows the user to select different sorting algorithms
+                to sort them. With visual ques and slow increments to watch it happen in real time.
+            </p>
+            <div class="project-features">
+                <span>Algorithms</span>
+                <span>Sorting</span>
+                <span>JS</span>
+                <span>CSS</span>
+                <span>UI/UX Design</span>
+            </div>
+        </div>
+
+        <!-- --- ARCHIVE --- -->
+        <div class="left">
+            <h3>Archive //</h3>
+        </div>
+        <div class="right">
+            <div class="project-header">
+                <div class="proj-btn-container">
+                    <button class="project btn-info"><span class="button-img">View</span>View</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- --------- MODALS --------- -->
+
+    <!-- --- MODAL PROTFOLIO --- -->
+    <div class="modal portfolio" id="portfolio-modal">
+        <div class="modal-close"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="modal-title">Portfolio</h2>
+                <span class="modal-close-button">X</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-media-container"><img src="" alt="Portfolio"></div>
+                <button class="btn-source"><span class="btn-invert button-img">Source</span>Source</button>
+                <a href="software/library/"><button class="btn-proj"><span class="btn-invert button-img">Project</span>Project</button></a>
+                <p class="modal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero provident vel praesentium
+                    sequi
+                    corporis commodi hic ullam consequuntur est, quod recusandae rem eum aliquam consectetur nam
+                    illum
+                    numquam! Sequi.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --- MODAL EXCEL --- -->
+    <div class="modal" id="">
+        <div class="modal-close"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="modal-title">Excel CRUD</h2>
+                <span class="modal-close-button">X</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-media-container"><img src="" alt="Excel"></div>
+                <button class="btn-source"><span class="btn-invert button-img">Source</span>Source</button>
+                <a href=""><button class="btn-proj"><span class="btn-invert button-img">Example</span>Example</button></a>
+                <p class="modal-text">
+                    Project Private
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero provident vel praesentium
+                    sequi
+                    corporis commodi hic ullam consequuntur est, quod recusandae rem eum aliquam consectetur nam
+                    illum
+                    numquam! Sequi.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --- MODAL 3D GAME --- -->
+    <div class="modal" id="">
+        <div class="modal-close"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="modal-title">WebGL THREE.js App</h2>
+                <span class="modal-close-button">X</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-media-container"><img src="" alt="3D"></div>
+                <button class="btn-source"><span class="btn-invert button-img">Source</span>Source</button>
+                <a href="software/self-drive/"><button class="btn-proj"><span class="btn-invert button-img">Project</span>Project</button></a>
+                <p class="modal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero provident vel praesentium
+                    sequi
+                    corporis commodi hic ullam consequuntur est, quod recusandae rem eum aliquam consectetur nam
+                    illum
+                    numquam! Sequi.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --- MODAL VISUAL SYNTH --- -->
+    <div class="modal" id="">
+        <div class="modal-close"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="modal-title">Visual Synth</h2>
+                <span class="modal-close-button">X</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-media-container"><img src="" alt="Visual Synth"></div>
+                <button class="btn-source"><span class="btn-invert button-img">Source</span>Source</button>
+                <a href="software/visual-synth/"><button class="btn-proj"><span class="btn-invert button-img">Project</span>Project</button></a>
+                <p class="modal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero provident vel praesentium
+                    sequi
+                    corporis commodi hic ullam consequuntur est, quod recusandae rem eum aliquam consectetur nam
+                    illum
+                    numquam! Sequi.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --- MODAL VISUAL SORT --- -->
+    <div class="modal" id="">
+        <div class="modal-close"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="modal-title">Visual Sort</h2>
+                <span class="modal-close-button">X</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-media-container"><img src="" alt="vis sort"></div>
+                <button class="btn-source"><span class="btn-invert button-img">Source</span>Source</button>
+                <a href="software/visual-sort/"><button class="btn-proj"><span class="btn-invert button-img">Project</span>Project</button></a>
+                <p class="modal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero provident vel praesentium
+                    sequi
+                    corporis commodi hic ullam consequuntur est, quod recusandae rem eum aliquam consectetur nam
+                    illum
+                    numquam! Sequi.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --- MODAL ARCHIVE --- -->
+    <div class="modal" id="">
+        <div class="modal-close"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="modal-title">Archive</h2>
+                <span class="modal-close-button">X</span>
+            </div>
+            <div class="modal-body modal-archive">
+                <a href="software/text-convert/"><button class="btn-source"><span class="btn-invert button-img">Text Convertor</span>Text Convertor</button></a>
+                <a href="software/tip-tax-total/"><button class="btn-source"><span class="btn-invert button-img">Tax Calculator</span>Tax Calculator</button></a>
+                <a href="software/tindog/"><button class="btn-source"><span class="btn-invert button-img">TinDog</span>TinDog</button></a>
+                <a href="software/drum-kit/"><button class="btn-source"><span class="btn-invert button-img">Drum Kit</span>Drum Kit</button></a>
+                <a href="software/simon-game/"><button class="btn-source"><span class="btn-invert button-img">Drum Kit</span>Simon Color Match Game</button></a>
+                <a href="software/dice/"><button class="btn-source"><span class="btn-invert button-img">Dice Roll</span>Dice Roll</button></a>
+                <a href="software/name-gen/"><button class="btn-source"><span class="btn-invert button-img">Name Generator</span>Name Generator</button></a>
+                <a href="software/gacha-sim/"><button class="btn-source"><span class="btn-invert button-img">Gacha Simulator</span>Gacha Simulator</button></a>
+                <a href="software/ball/"><button class="btn-source"><span class="btn-invert button-img">Bouncing Ball</span>Bouncing Ball</button></a>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <footer>
+        <p class="copyright">2022 Joshua Koji</p>
+        <div class="mobile-spacer"></div>
+        <!-- spacer for mobile nav bar, to still see bottom -->
+    </footer>
+
+    <script src="main.js"></script>
+
 </body>
+
 </html>
