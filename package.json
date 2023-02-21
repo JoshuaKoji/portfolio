@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaKoji/portfolio.git"
+  },
+  "author": "Joshua Koji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshuaKoji/portfolio/issues"
+  },
+  "homepage": "https://github.com/JoshuaKoji/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
