@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bouncing Ball</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="ball.css">
+    </head>
+    <body>
+            <div id="ball"></div>
+    
+            <div id="header">
+                <div id="des">
+                    <h1>Bouncing Ball</h1>
+                    <p>Click the Ball to Throw</p>
+                </div>
+
+                <div class="break"></div>
+
+                <div id="height_wrapper">
+                    <span>Power</span>
+                    <input type="range" name="Power" min="1" max="30" value="15" step="1" id="slider_height" class="slider">
+
+                    <label for="slider_height" id="height_label">50%</label>
+                </div>
+
+                <div class="break"></div>
+
+                <div id="x_wrapper">
+                    <span>Direction</span>
+                    <div id="x_slider_wrapper">
+                        <label for="slider_x">L</label>    
+                        <input type="range" name="Direction" min="-10" max="10" value="0" step="1" id="slider_x" class="slider">
+                        <label for="slider_x">R</label>
+
+
+                    </div>  
+                    <label for="slider_x" id="x_label">C</label>
+                </div>
+
+                <div class="break"></div>
+
+                <a href="https://github.com" target="blank"><button>View Source</button></a>
+
+            </div>
+
+        
+        <script src="ball.js" async defer></script>
+    </body>
+</html>

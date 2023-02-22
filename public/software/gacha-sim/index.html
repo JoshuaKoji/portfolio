@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gacha Sim</title>
+</head>
+
+<body>
+    <section class="main">
+        <!-- <h2>Star Probability</h2>
+        <div class="prob_box_star">
+            <div>
+                <label for="six_prob" class="six_style">6: </label>
+                <input id="six_prob" class="six_style" value="4" type="number" max="100" min="0" step="1">
+                <label for="six_prob" class="six_style">%</label>
+            </div>
+            <div>
+                <label for="five_prob" class="five_style">5: </label>
+                <input id="five_prob" class="five_style" value="43" type="number" max="100" min="0" step="1">
+                <label for="five_prob" class="five_style">%</label>
+            </div>
+            <div>
+                <label for="four_prob" class="four_style">4: </label>
+                <input id="four_prob" class="four_style" value="53" type="number" max="100" min="0" step="1">
+                <label for="four_prob" class="four_style">%</label>
+            </div>
+            <div>
+                <label for="three_prob" class="three_style">3: </label>
+                <input id="three_prob" class="three_style" type="number" max="100" min="0" step="1">
+                <label for="three_prob" class="three_style">%</label>
+            </div>
+            <div>
+                <label for="two_prob" class="two_style">2: </label>
+                <input id="two_prob" class="two_style" type="number" max="100" min="0" step="1">
+                <label for="two_prob" class="two_style">%</label>
+            </div>
+            <div>
+                <label for="one_prob" class="one_style">1: </label>
+                <input id="one_prob" class="one_style" type="number" max="100" min="0" step="1">
+                <label for="one_prob" class="one_style">%</label>
+            </div>
+
+        </div> -->
+        <!-- <h2>or</h2> -->
+        <h2>Gacha Simulator <button class="num_alpha">★</button></h2>
+        
+        <div class="prob_box_ssr">
+            <div>
+                <label for="ur_prob" class="ur_style">UR: </label>
+                <input id="ur_prob" class="ur_style" type="number" value="0" max="100" min="0" step="1">
+                <label for="ur_prob" class="ur_style">%</label>
+            </div>
+            <div>
+                <label for="ssr_prob" class="ssr_style">SSR: </label>
+                <input id="ssr_prob" class="ssr_style" type="number" value="2" max="100" min="0" step="1">
+                <label for="ssr_prob" class="ssr_style">%</label>
+            </div>
+            <div>
+                <label for="sr_prob" class="sr_style">SR: </label>
+                <input id="sr_prob" class="sr_style" type="number" value="43" max="100" min="0" step="1">
+                <label for="sr_prob" class="sr_style">%</label>
+            </div>
+            <div>
+                <label for="r_prob" class="r_style">R: </label>
+                <input id="r_prob" class="r_style" type="number" value="55" max="100" min="0" step="1">
+                <label for="r_prob" class="r_style">%</label>
+            </div>
+            <div>
+                <label for="c_prob" class="c_style">C: </label>
+                <input id="c_prob" class="c_style" type="number" value="0" max="100" min="0" step="1">
+                <label for="c_prob" class="c_style">%</label>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="roll_box">
+
+            <label for="cost_ipt">Cost: </label>
+            <input id="cost_ipt" type="number" value="300" min="1" max="10000" step="1">
+            &nbsp;
+            <label for="roll_amt_ipt">Roll Amount: </label>
+            <input id="roll_amt_ipt" type="number" value="127" min="1" max="10000" step="1">
+            <label for="roll_amt_ipt">x</label>
+            &nbsp;
+            <button class="roll_btn">Roll</button>
+        </div>
+
+        <br>
+        <br>
+        <h3>SSR Count: <span class="ssr_counter"></span></h3>
+        <h3>Roll Count: <span class="roll_counter"></span></h3>
+        <h3>SSR Ratio: <span class="ratio"></span></h3>
+        <h3>Paid: <span class="gem"></span></h3>
+        <br>
+        <div class="rolled"></div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

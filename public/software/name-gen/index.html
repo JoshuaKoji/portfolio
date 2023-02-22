@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Generator</title>
+    <link rel="stylesheet" href="/assets/fonts/font-face.css">
+    <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+
+        <button id="light">&#59142;</button>
+        <button id="dark">&#59144;</button>
+        <a href="/"><button>Joshua Koji</button></a>
+        
+    <br>
+
+    <hr>
+    <br>
+    <label for="ipt">Input: </label>
+    <input type="text" name="ipt" id="ipt">
+    <br>
+    Scramble first input by: 
+    <br>
+    <input type="radio" name="scram1" id="word1" value="word" checked>
+    <label for="word1">Word</label>
+    &emsp;
+    <input type="radio" name="scram1" id="char1" value="char">
+    <label for="char1">Character</label>
+    <br>
+    <br>
+    Preposition:
+    <br> 
+    <input type="radio" name="prep" id="none" checked>
+    <label for="none">None</label>
+    &emsp;
+    <input type="radio" name="prep" id="of" value="of">
+    <label for="of">of</label>
+    &emsp;
+    <input type="radio" name="prep" id="the" value="the">
+    <label for="the">the</label>
+    &emsp;
+    <input type="radio" name="prep" id="ofthe" value="of the">
+    <label for="ofthe">of the</label>
+    &emsp;
+    <input type="radio" name="prep" id="random" value="random">
+    <label for="random">Random</label>
+    <br>
+    <br>
+    <label for="ipt2">Second Input (optional): </label>
+    <input type="text" name="ipt2" id="ipt2">
+    <br>
+    Scramble second input by: 
+    <br>
+    <input type="radio" name="scram2" id="word2" value="word" checked>
+    <label for="word2">Word</label>
+    &emsp;
+    <input type="radio" name="scram2" id="char2" value="char">
+    <label for="char2">Character</label>
+    <br>
+    <br>
+    <label for="num"># of Results (500 max): </label>
+    <input type="number" name="num" id="num" min="1" max="500" value="250">
+    <br>
+    <br>
+    Possible # of Words/Characters for the first Input (15 max): 
+    <br>
+    <label for="range_on1">Range: </label>
+    <input type="radio" name="type1" id="range_on1" value="range" checked>
+    <input type="number" id="range_val1" min="1" max="15" value="3">
+    &emsp;
+    <br>
+    <br>
+    <label for="fixed_on1">Fixed: </label>
+    <input type="radio" name="type1" id="fixed_on1" value="fixed">
+    <input type="number" id="fixed_val1" min="1" max="15" value="1">
+    <br>
+    <br>
+    <br>
+    Possible # of Words/Characters for the second Input (15 max):
+    <br>
+    <label for="range_on2">Range: </label>
+    <input type="radio" name="type2" id="range_on2" value="range" checked>
+    <input type="number" id="range_val2" min="1" max="15" value="3">
+    &emsp;
+    <br>
+    <br>
+    <label for="fixed_on2">Fixed: </label>
+    <input type="radio" name="type2" id="fixed_on2" value="fixed">
+    <input type="number" id="fixed_val2" min="1" max="15" value="1">
+    <br>
+    <br>
+    <label for="repeat">Repeat Words/Characters: </label>
+    <input type="checkbox" name="repeat" id="repeat" checked>
+    <br>
+    <br>
+    <hr>
+    <button class="refresh">&#59180;</button>
+    <br>
+    <pre id="results" translate="no"></pre>
+    <button class="refresh">&#59180;</button>
+    <button id="up">&#60891;</button>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+html body{
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: .2em;
+}
+#ball{
+    border-radius: 50%;
+    position: absolute;
+    background-image: radial-gradient(at 0% 0%, white, red);
+    width: 20vh;
+    height: 20vh;
+    top: 80%;
+    left: 0;
+
+    cursor: pointer;
+}
+
+.break{
+    border-left: solid 3px black;
+    height: 35px;
+}
+
+#header{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100vw;
+
+    border: inset 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 7.5px rgba(0, 0, 0, 0.5);
+    background: rgba(16, 32, 83, 0.75);
+    padding: 15px 0px;
+}
+#des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#des h1{
+    font-size: 3em;
+    margin: 0;
+}
+#height_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#height_wrapper > *{
+    margin: 7.5px;
+}
+#x_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#x_slider_wrapper{
+    margin: 0 !important;
+}
+#x_wrapper > *{
+    margin: 7.5px;
+}
+.slider{
+    opacity: .8;
+}
+.slider:hover{
+    opacity: 1;
+}
+#slider_x{
+    appearance: none;
+    height: 7px;
+    outline: none;
+    border-radius: 3.5px;
+    background: rgb(225, 225, 225);
+}
+button{
+    background: rgb(255, 255, 255);
+    border: solid 1.5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 12.5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    opacity: .8;
+}
+button:hover{
+    opacity: 1;
+    color: red;
+}

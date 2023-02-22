@@ -1,0 +1,20 @@
+body {
+    margin: 2em auto;
+    width: 50%;
+}
+
+body, input, pre {
+    font-size: 1.15em;
+    /* font-family: 'Almendra SC', serif; */
+    font-family: 'IM Fell English SC', serif;
+}
+
+button {
+    font-family: 'Segoe Symbol';
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.mobile-only {
+    display: none;
+}
